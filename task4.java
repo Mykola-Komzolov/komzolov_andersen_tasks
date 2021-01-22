@@ -9,7 +9,7 @@ public class Main {
         int K = 0;
         int C = 0;
         boolean G = true;
-        char[] charArray = x.toCharArray();  // создаём массив типа char из переменной result(тип string)
+        char[] charArray = x.toCharArray();  // создаём массив типа char из переменной x(тип string)
         for(int i = 0; i < charArray.length; i++) {
             if (charArray[i] == '[') {
                 K += 1;
