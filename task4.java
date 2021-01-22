@@ -5,11 +5,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Введите скобочную последовательность: ");
-        String x = console.nextLine();
+        String sequence = console.nextLine();
         int K = 0;
         int C = 0;
         boolean G = true;
-        char[] charArray = x.toCharArray();  // создаём массив типа char из переменной x(тип string)
+        char[] charArray = sequence.toCharArray();  // создаём массив типа char из переменной sequence(тип string)
         for(int i = 0; i < charArray.length; i++) {
             if (charArray[i] == '[') {
                 K += 1;
